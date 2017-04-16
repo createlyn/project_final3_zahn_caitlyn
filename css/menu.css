@@ -1,0 +1,37 @@
+
+
+.menu-section__list {
+    margin: 5vh 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.menu-section__item {
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid #990066;
+    width: 45%;
+    text-align: center;
+    background-color: #310025;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+
+/*tablet */
+@media all and (min-width: 768px) {
+    .menu-section__item {
+        width: 25%;
+        margin: 2vh;
+    }
+
+}
+
+/*desktop*/
+@media all and (min-width: 1100px) {
+    .menu-section__item {
+        width: 15%;
+        margin: 1vh;
+    }
+
+}

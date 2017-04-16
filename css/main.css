@@ -2,6 +2,10 @@ body {
     background-color: #1c1c1c;
     color: #ffffff;
 }
+.container {
+    margin: 0 auto;
+    max-width: 1200px
+}
 
 h1 {
     font-family: "canada-type-gibson", sans-serif;
@@ -131,12 +135,12 @@ button {
     outline: none;
 }
 
-main {
+/*main {
     background-image: url(../img/fish-right.png);
     background-repeat: repeat-x;
     background-size: 50%;
     background-attachment: fixed;
-}
+}*/
 
 .color-tiles {
     text-align: center;
@@ -214,7 +218,7 @@ main {
         margin: 0 1em;
         background-size: 0%;
     }
-
+/*
     main {
         width: 60%;
         display: inline-block;
@@ -223,7 +227,7 @@ main {
         background-size: 40%;
         background-position: 60%;
         background-repeat: no-repeat;
-    }
+    }*/
 
     .color-tiles {
         display: inline-block;
@@ -304,10 +308,10 @@ main {
     .typography {
 
     }
-
+/*
     main {
         background-size: 30%;
-    }
+    }*/
 
     button:hover {
         box-shadow: 0 0 15px rgba(250, 242, 140, 0.5);
