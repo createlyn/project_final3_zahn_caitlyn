@@ -7,6 +7,14 @@ body {
     max-width: 1200px
 }
 
+.margin--reset {
+    margin: 0;
+}
+
+.padding--reset {
+    margin: 0;
+}
+
 h1 {
     font-family: "canada-type-gibson", sans-serif;
     font-style: normal;
