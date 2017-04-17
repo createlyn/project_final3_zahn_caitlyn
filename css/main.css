@@ -152,12 +152,12 @@ button {
     outline: none;
 }
 
-/*main {
+.index-page {
     background-image: url(../img/fish-right.png);
     background-repeat: repeat-x;
     background-size: 50%;
     background-attachment: fixed;
-}*/
+}
 
 .color-tiles {
     text-align: center;
@@ -235,8 +235,8 @@ button {
         margin: 0 1em;
         background-size: 0%;
     }
-/*
-    main {
+
+    .index-page {
         width: 60%;
         display: inline-block;
         vertical-align: top;
@@ -244,7 +244,7 @@ button {
         background-size: 40%;
         background-position: 60%;
         background-repeat: no-repeat;
-    }*/
+    }
 
     .color-tiles {
         display: inline-block;
@@ -322,13 +322,10 @@ button {
         font-weight: 600;
     }
 
-    .typography {
 
-    }
-/*
-    main {
+    .index-page {
         background-size: 30%;
-    }*/
+    }
 
     button:hover {
         box-shadow: 0 0 15px rgba(250, 242, 140, 0.5);
