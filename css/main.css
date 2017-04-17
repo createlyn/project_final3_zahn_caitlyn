@@ -153,8 +153,16 @@ button {
     outline: none;
 }
 
+/* footer */
+footer {
+    background-color: pink;
+    bottom: 0;
+    position: relative;
+    margin-top: 200px;
+}
+
 /* index page */
-.index-page {
+.index__hero-content {
     background-image: url(../img/index_sushi-cartoon.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -249,7 +257,7 @@ button {
     }
 
     /* index */
-    .index-page {
+    .index__hero-content {
         background-size: 70%;
     }
 
