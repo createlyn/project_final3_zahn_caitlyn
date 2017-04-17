@@ -1,6 +1,8 @@
 body {
     background-color: #1c1c1c;
     color: #ffffff;
+    height: 100%;
+    width: 100%;
 }
 
 .container {
@@ -92,6 +94,7 @@ a {
     text-decoration: none;
     color: #faf28c;
 }
+
 
 header {
     margin: auto;
@@ -317,8 +320,18 @@ footer {
         font-weight: 400;
     }
 
+    .menu-wrap {
+        width: 25%;
+        display: inline-block;
+    }
+
+    .main-content {
+        width: 70%;
+        display: inline-block;
+    }
+
     header {
-        background-color: #ffffff;
+        /*background-color: #ffffff;*/
         text-align: left;
     }
 
