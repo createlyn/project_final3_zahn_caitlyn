@@ -18,7 +18,7 @@
 
 .menu-section {
     padding: 0 20px;
-    display: none;
+    /*display: none;*/
 }
 
 .menu-section h1 {
@@ -29,19 +29,19 @@
 
 }
 
-.sushi-menu p {
+.menu-section p {
     padding: 0 0 2vh 0;
     display: inline-block;
 }
 
-.sushi-menu tr {
+.menu-description {
     display: inline-block;
     margin-bottom: 5vh;
     width: 100%;
     border-bottom: 1px solid #990066;
 }
 
-.sushi-menu td {
+.menu-description td {
     display: block;
 }
 
@@ -67,7 +67,7 @@
         margin: 2vh;
     }
 
-    .sushi-menu tr {
+    .menu-description {
         width: 43%;
         margin: 5vh;
     }
@@ -80,7 +80,7 @@
         margin: 1vh;
     }
 
-    .sushi-menu tr {
+    .menu-description  {
         width: 40%;
         /*margin: 4vh;*/
     }
