@@ -58,10 +58,12 @@ h3.menu__item-title {
     display: inline-block;
     width: 25%;
     text-align: right;
+    font-weight: 500;
 }
 
 .menu__item-description {
     margin: 0;
+    color: #bfbfbf;
 }
 
 
