@@ -164,7 +164,7 @@ footer {
 /* index page */
 .index__hero-content {
     background-image: url(../img/index_sushi-cartoon.png);
-    background-size: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
