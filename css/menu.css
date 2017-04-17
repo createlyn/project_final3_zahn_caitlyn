@@ -20,16 +20,24 @@
     padding: 0 20px;
 }
 
+.menu-section h1 {
+    text-align: center;
+    border-bottom: 1px solid #990066;
+    margin: 6vh 0 6vh 0;
+    line-height: 60px;
+
+}
+
 .sushi-menu p {
-    padding: 0;
+    padding: 0 0 2vh 0;
     display: inline-block;
 }
 
 .sushi-menu tr {
     display: inline-block;
-    background-color: green;
     margin-bottom: 5vh;
     width: 100%;
+    border-bottom: 1px solid #990066;
 }
 
 .sushi-menu td {
@@ -60,7 +68,7 @@
 
     .sushi-menu tr {
         width: 43%;
-        margin: 4vh;
+        margin: 5vh;
     }
 
 }
@@ -72,8 +80,8 @@
     }
 
     .sushi-menu tr {
-        width: 45%;
-        margin: 4vh;
+        width: 40%;
+        /*margin: 4vh;*/
     }
 
 }
