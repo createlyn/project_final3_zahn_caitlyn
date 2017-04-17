@@ -6,6 +6,7 @@ body {
 .container {
     margin: 0 auto;
     max-width: 1200px;
+    padding: 0 30px;
 }
 
 .margin--reset {
@@ -152,7 +153,18 @@ button {
     outline: none;
 }
 
+/* index page */
 .index-page {
+    background-image: url(../img/index_sushi-cartoon.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+
+/* style-tile-page */
+.style-tile-page {
     background-image: url(../img/fish-right.png);
     background-repeat: repeat-x;
     background-size: 50%;
@@ -211,7 +223,7 @@ button {
     width: 55%;
 }
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 768px) {
     header {
         background-color: #ffffff;
     }
@@ -236,7 +248,13 @@ button {
         background-size: 0%;
     }
 
+    /* index */
     .index-page {
+        background-size: 70%;
+    }
+
+    /* style tile page */
+    .style-tile-page {
         width: 60%;
         display: inline-block;
         vertical-align: top;
@@ -323,7 +341,7 @@ button {
     }
 
 
-    .index-page {
+    .style-tile-page {
         background-size: 30%;
     }
 
