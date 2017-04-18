@@ -1,12 +1,9 @@
-$('menu-section__link')
-  .filter( ":odd" )
-    .hide()
-  .end()
-  .filter( ":even" )
-    .click(function() {
-      $( this )
-        .toggleClass('menu-section')
-        .next()
-          .stop( true, true )
-          .slideToggle();
+
+/* menu tabs */
+$(document).ready(function () {
+    $('.tabs').tabslet({
+        mouseevent: 'click',
+        attribute: 'href',
+        animation: true
     });
+});

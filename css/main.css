@@ -118,19 +118,20 @@ header {
 }
 
 nav {
-    padding: 1em;
+    /*padding: 1em;*/
     font-family: "canada-type-gibson", sans-serif;
     font-style: normal;
-    background-color: #990066;
     text-transform: uppercase;
 }
 
 nav a {
-    padding: 0.8em;
-    margin: 0.3em;
+    padding: 0.8em 0;
     text-decoration: none;
     color: #ffffff;
     font-weight: 400;
+    display: block;
+    background-color: #310025;
+    border: 1px solid #990066;
 }
 
 .main-index {
@@ -206,6 +207,10 @@ button {
 .social-media__item {
     display: inline-block;
     margin-bottom: 8vh;
+}
+
+.social-media__image {
+    max-width: 250px;
 }
 
 .social-media__item figcaption {
@@ -295,6 +300,20 @@ footer {
 @media all and (min-width: 768px) {
     .container {
         padding: 0 30px;
+    }
+
+    nav {
+        background-color: #310025;
+        border: 1px solid #990066;
+
+    }
+
+    nav a {
+        background-color: none;
+        border: none;
+        display: inline-block;
+        padding: 10px 20px;
+
     }
 
     .page-section p {
@@ -450,12 +469,16 @@ footer {
         margin: 0;
         width: 100%;
         text-align: center;
+        border: none;
     }
 
     nav a {
         color: #990066;
         font-size: 1.5em;
         display: block;
+        background-color: #ffffff;
+        border: none;
+        padding: 20px 0;
     }
 
     nav a:hover {
