@@ -19,7 +19,7 @@ body {
 }
 
 .padding--reset {
-    margin: 0;
+    padding: 0;
 }
 
 .hidden {
@@ -144,6 +144,10 @@ nav a {
 
 .icon-size {
     max-width: 300px;
+}
+
+.page-section h1 {
+    text-align: center;
 }
 
 .typography {
@@ -276,6 +280,7 @@ footer {
 
     #logo_tablet {
         display: block;
+        margin: auto;
     }
 
     .typography {
@@ -437,5 +442,6 @@ footer {
 
     footer {
         clear: both;
+        min-height: 20vh !important;
     }
 }
