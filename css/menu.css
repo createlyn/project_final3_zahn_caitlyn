@@ -74,7 +74,7 @@ h3.menu__item-title {
     }
 
     .menu-description {
-        width: 43%;
+        width: 40%;
         margin: 5vh;
     }
 
@@ -86,8 +86,13 @@ h3.menu__item-title {
         margin: 1vh;
     }
 
-    .menu-description  {
-        width: 40%;
+    .menu-description {
+        width: 100%;
+        border-bottom: none;
+    }
+
+    .menu-section table {
+        border-bottom: 1px solid #990066;
     }
 
 }
