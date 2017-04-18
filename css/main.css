@@ -89,7 +89,7 @@ p {
     font-weight: 300;
     color: #ffffff;
     font-size: 1em;
-    padding: 1em 0;
+    padding: 1em;
     line-height: 1.2em;
 }
 
@@ -139,6 +139,7 @@ nav a {
     background-size: 50%;
     background-attachment: fixed;
     background-position: center center;
+    background-color: #1c1c1c;
 }
 
 .icon-size {
@@ -348,7 +349,7 @@ footer {
     .container {
         margin: 0 auto;
         max-width: 1200px;
-
+        padding: 0 30px;
     }
 
     .menu-wrap {
@@ -413,7 +414,7 @@ footer {
     }
 
     .index__hero-content {
-        background-position: 85% 90%;
+        background-position: 85% 70%;
     }
 
     .page-section {
@@ -421,7 +422,7 @@ footer {
         background-color: //rgba(28, 28, 28, 0.5);
         margin: 7% 5% 0 30%;
         padding: 5vw;
-        min-height: 100vh;
+        min-height: 80vh;
     }
 
 
