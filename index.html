@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/menu.css">
 </head>
 <body>
+    <a href="#home" class="anchor"></a>
     <header>
         <div id="logo">
             <img src="img/logo-words.png" alt="logo" id="logo_mobile"/>
@@ -26,10 +27,11 @@
                 <li class="menu__active">
                     <a href="#about">About</a>
                 </li>
-                <li class="menu__active menu-extend">
-                    <a href="#menu" id="menu-dropdown"><span>Menu</span></a>
+                <li class="menu-extend">
+                    <a href="#menu" class="inline-block" id="menu-dropdown"><span>Menu</span></a>
+                    <a href="#menu-extend">+</a>
                 </li>
-                <li class="menu__active menu-extend">
+                <li id="menu-extend">
                     <ul class="sub-menu">
                         <li class="sub-menu__item">
                             <a href="#appetizers" onclick="openMenu(event, 'appetizers')">Apps</a>
@@ -56,73 +58,102 @@
     </header>
     <main class="main-index">
         <section class="page-section index__hero-content" id="home">
-            <h1 class="tlt">Welcome to Harryhausen's</h1>
-            <h4>Voted the worst food in monstropolis!</h4>
+            <div class="container hero">
+                <h1 class="tlt">Welcome to Harryhausen's</h1>
+                <h4 class="submessage">Voted the worst food in monstropolis!</h4>
+            </div>
         </section>
-        <section class="page-section" id="about">
+        <section class="page-section about" id="about">
             <div class="container">
-                <h1>This is the about section</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas suscipit viverra orci, eget molestie nisi volutpat non. In sollicitudin, elit ut fermentum convallis, magna elit viverra ex, in hendrerit felis arcu mattis eros. Phasellus malesuada, orci ac dignissim scelerisque, arcu leo faucibus dui, at cursus velit ex pellentesque lectus. Sed laoreet augue fringilla, commodo risus et, venenatis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam imperdiet, risus dignissim porta maximus, sapien orci dapibus turpis, sed tincidunt dolor augue at massa. Praesent aliquam, leo eu vehicula egestas, urna massa vehicula libero, nec luctus purus ipsum nec lacus. Morbi vel ipsum semper massa commodo efficitur nec a leo. In a ante leo. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                </p>
-                <div class="">
+                <h1>about</h1>
+                <div class="about__description">
+                    <h4>Our Beginnings and Growth</h4>
+                    <p>Akai Hana started as a small restaurant with only 40 seats in 1986, and quickly became known as a great place to get authentic Japanese food. Before long, we became so popular we moved into our present location, which seats 130. Now, thousands of loyal customers make Akai Hana a regular destination.
+                    </p>
+                </div>
+                <div class="about__description">
+                    <h4>The Food – Outstanding!</h4>
+                    <p>
+                        We have a wonderful selection of Japanese favorites. Our tempura is always made fresh to order, lightly fried.  The dinner box and lunch box is served in a lacquered box with a beautiful display of meat or fish, rice, and several traditional sides. There’s something for everybody to enjoy from Akai Hana’s large and varied menu.
+                    </p>
+                </div>
+                <div class="about__description">
+                <h4>Sushi – Our Pride</h4>
+                    <p>
+                        Akai Hana is well known for having superior sushi, made by our highly skilled, professionally trained sushi chefs. This is REAL sushi. Fish imported directly from Japan is available, and all our ingredients are guaranteed to be “super fresh”. Sushi lovers from New York and California tell us our sushi is among the best in America.
+                    </p>
+                </div>
+                <div class="about__description">
+                    <h4>The Atmosphere</h4>
+                    <p>
+                        Our dining room is warm, comfortable and elegant, with beautiful shades of wood.You can always hear the sound of our guests talking and laughing and enjoying the Akai Hana experience. Our guests feel like family to us, and we’re confident that once you dine here, you’ll want to visit us again and again.
+                    </p>
+                </div>
+                <div class="about__description">
                     <img src="img/purple_icon-octopus.png" alt="octopus icon" class="icon-size"/>
+                    <img src="img/purple_icon-octopus.png" alt="octopus icon" class="icon-size"/>
+                    <img src="img/purple_icon-octopus.png" alt="octopus icon" class="icon-size"/>
+                    <h6>We look forward to seeing you soon!</h6>
                 </div>
             </div>
+        </section>
+        <section class="page-section" id="social">
             <div class="social-media__banner">
                 <h4>follow us on social media</h4>
                 <h2 class="margin--reset"><a href="https://www.instagram.com/harryhausens/">@harryhausens</a></h2>
             </div>
-            <ul class="social-media__list">
-                <li class="social-media__item">
-                    <figure class="margin--reset">
-                        <img src="img/social-image-1.jpg" alt="sushi chef" class="social-media__image"/>
-                        <figcaption>
-                            #octochef
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="social-media__item">
-                    <figure class="margin--reset">
-                        <img src="img/social-image-2.jpg" alt="salmon" class="social-media__image"/>
-                        <figcaption>
-                            #dishoftheday
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="social-media__item">
-                    <figure class="margin--reset">
-                        <img src="img/social-image-3.jpg" alt="mike and sully" class="social-media__image" />
-                        <figcaption>
-                            scary regulars
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="social-media__item">
-                    <figure class="margin--reset">
-                        <img src="img/social-image-4.jpg" alt="salmon" class="social-media__image"/>
-                        <figcaption>
-                            #sl<strong>eye</strong>ders
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="social-media__item">
-                    <figure class="margin--reset">
-                        <img src="img/social-image-5.jpg" alt="harryhausen's"  class="social-media__image"/>
-                        <figcaption>
-                            <a href="https://www.instagram.com/harryhausens/">@HARRYHAUSENs</a>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="social-media__item">
-                    <figure class="margin--reset">
-                        <img src="img/social-image-6.jpg" alt="salmon" class="social-media__image"/>
-                        <figcaption>
-                            #stinkysalmon
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="social-media__list">
+                    <li class="social-media__item">
+                        <figure class="margin--reset">
+                            <img src="img/social-image-1.jpg" alt="sushi chef" class="social-media__image"/>
+                            <figcaption>
+                                #octochef
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="social-media__item">
+                        <figure class="margin--reset">
+                            <img src="img/social-image-2.jpg" alt="salmon" class="social-media__image"/>
+                            <figcaption>
+                                #dishoftheday
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="social-media__item">
+                        <figure class="margin--reset">
+                            <img src="img/social-image-3.jpg" alt="mike and sully" class="social-media__image" />
+                            <figcaption>
+                                scary regulars
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="social-media__item">
+                        <figure class="margin--reset">
+                            <img src="img/social-image-4.jpg" alt="salmon" class="social-media__image"/>
+                            <figcaption>
+                                #sl<strong>eye</strong>ders
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="social-media__item">
+                        <figure class="margin--reset">
+                            <img src="img/social-image-5.jpg" alt="harryhausen's"  class="social-media__image"/>
+                            <figcaption>
+                                <a href="https://www.instagram.com/harryhausens/">@HARRYHAUSENs</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="social-media__item">
+                        <figure class="margin--reset">
+                            <img src="img/social-image-6.jpg" alt="salmon" class="social-media__image"/>
+                            <figcaption>
+                                #stinkysalmon
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="page-section" id="menu">
             <h1>This is the menu section</h1>
@@ -527,30 +558,29 @@
             </div>
         </section>
         <section class="page-section" id="contact">
-            <div class="container">
-                <h1>This is the contact section</h1>
-                <p>
-                    510-234-9854
-                </p>
-                <p>
-                    info@HarryHausen.com
-                </p>
-                <p>
-                    1 Scary Street, Monstropolis
-                </p>
-            </div>
+            <footer>
+                <div class="container">
+                    <h1>Contact</h1>
+                    <p>
+                        510-234-9854
+                    </p>
+                    <p>
+                        info@HarryHausen.com
+                    </p>
+                    <p>
+                        1 Scary Street, Monstropolis
+                    </p>
+                </div>
+                    <h6>hours</h6>
+                    <p class="padding--reset">
+                        Sunday - Tuesday: 11:00am - 10:00pm
+                    </p>
+                    <p class="padding--reset">
+                        Friday - Saturday: 11:00am - 11:00pm
+                    </p>
+            </footer>
         </section>
-    </main>
-    <footer class="page-section footer">
-        <h1>this is the footer section</h1>
-        <h6>hours</h6>
-        <p class="padding--reset">
-            Sunday - Tuesday: 11:00am - 10:00pm
-        </p>
-        <p class="padding--reset">
-            Friday - Saturday: 11:00am - 11:00pm
-        </p>
-    </footer>
+</main>
 
     <script src="https://use.typekit.net/oku5vxb.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>

@@ -39,6 +39,13 @@ $(document).ready(function () {
         initialState: 'default'
     });
 });
+
+$('.menu-extend').hover({
+    in: {
+    effect: 'fadeInLeftBig',
+
+}
+});
 //
 // $('#responsive-menu').lazeemenu({
 //     activeClass: 'sub-menu__item',

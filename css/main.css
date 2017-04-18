@@ -12,6 +12,7 @@ body {
 
 .container {
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .margin--reset {
@@ -105,6 +106,10 @@ header {
     width: 100%;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 #logo {
     background-color: #ffffff;
 }
@@ -141,6 +146,10 @@ nav li a {
     border: 1px solid #990066;
 }
 
+#menu-extend {
+    display: inline-block;
+}
+
 .sub-menu {
     /*display: none;*/
 }
@@ -161,15 +170,19 @@ nav li a {
 }
 
 .icon-size {
-    max-width: 300px;
+    width: 30%;
+    max-width: 200px;
+    margin-right: 2vw;
 }
 
 .page-section {
     min-height: 50vh;
+    margin-bottom: 3vh;
 }
 
 .page-section h1 {
     text-align: center;
+    margin-top: 7vh;
 }
 
 .typography {
@@ -206,11 +219,25 @@ button {
     background-attachment: fixed;
     background-position: center 70%;
     background-color: transparent;
+    text-align: center;
+}
+
+
+.submessage {
+    background-color: rgba(28, 28, 28, 0.5);
+    padding: 10px;
+    margin: 10vh 0;
+    color: #faf28c;
 }
 
 /* about section */
+.about__description h6 {
+    text-align: center;
+}
+
 .social-media__banner {
     text-align: center;
+    margin-top: 10vh;
 }
 
 .social-media__list {
@@ -370,6 +397,40 @@ footer {
         margin: auto;
     }
 
+    /* index */
+    .index__hero-content {
+        background-size: 70%;
+    }
+
+    .submessage {
+        padding: 30px 0;
+        font-weight: 400;
+    }
+
+    /* about */
+    .about {
+        margin: auto;
+    }
+
+    .about__description {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .about__description-image {
+        width: 70%;
+    }
+
+    .about-image {
+
+    }
+
+    .icon-size {
+        width: 30%;
+    }
+
+    /* style tile page */
     .typography {
         width: 30%;
         display: inline-block;
@@ -377,14 +438,6 @@ footer {
         background-size: 0%;
     }
 
-    /* index */
-    .index__hero-content {
-        background-size: 70%;
-    }
-
-    /* about */
-
-    /* style tile page */
     .style-tile-page {
         width: 60%;
         display: inline-block;
@@ -541,12 +594,7 @@ footer {
     .index__hero-content {
         background-size: 60%;
         background-position: 85% 70%;
-        text-align: center;
-    }
-
-    .index__hero-content h1 {
-        /*margin-top: 150px;*/
-    }
+}
 
     .page-section {
         height: 100%;
@@ -556,18 +604,24 @@ footer {
         min-height: 60vh;
     }
 
+    .social-media__banner {
+        margin-top: 0;
+    }
+
 
 
     .style-tile-page {
         background-size: 30%;
     }
 
-    button:hover {
+    button:hover,
+    .menu-section__list li:hover {
         box-shadow: 0 0 15px rgba(250, 242, 140, 0.5);
+        transition: .5s ease-in-out;
     }
 
     footer {
         clear: both;
-        height: 20vh;
+        margin-bottom: 20vh;
     }
 }
