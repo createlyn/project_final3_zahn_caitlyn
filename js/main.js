@@ -1,9 +1,7 @@
+// $('#appetizers').animatescroll({
+//     swing: 400
+// });
 
-/* menu tabs */
 $(document).ready(function () {
-    $('.tabs').tabslet({
-        mouseevent: 'click',
-        attribute: 'href',
-        animation: true
-    });
+    console.log('ready!');
 });

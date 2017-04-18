@@ -1,7 +1,12 @@
+#menu {
+
+}
+
 .menu-section__list {
     margin: 5vh 0;
     padding: 0;
     text-align: center;
+
 
 }
 
@@ -18,7 +23,6 @@
 
 .menu-section {
     padding: 0 20px;
-    display: none;
 }
 
 .menu-section h1 {
@@ -71,6 +75,10 @@ h3.menu__item-title {
     .menu-section__item {
         width: 25%;
         margin: 2vh;
+    }
+
+    .menu-section {
+        display: none;
     }
 
     .menu-description {
