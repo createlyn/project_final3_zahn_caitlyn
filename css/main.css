@@ -146,6 +146,10 @@ nav a {
     max-width: 300px;
 }
 
+.page-section {
+    min-height: 50vh;
+}
+
 .page-section h1 {
     text-align: center;
 }
@@ -175,6 +179,17 @@ button {
     outline: none;
 }
 
+
+/* index page */
+.index__hero-content {
+    background-image: url(../img/index_sushi-cartoon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 70%;
+    background-color: transparent;
+}
+
 /* about section */
 
 
@@ -186,14 +201,6 @@ footer {
     text-align: center;
 }
 
-/* index page */
-.index__hero-content {
-    background-image: url(../img/index_sushi-cartoon.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-}
 
 
 /* style-tile-page */
@@ -377,6 +384,7 @@ footer {
     }
 
     .main-index {
+        background-size: 30%;
         float: right;
         display: inline-block;
     }
@@ -420,6 +428,10 @@ footer {
 
     .index__hero-content {
         background-position: 85% 70%;
+    }
+
+    .index__hero-content h1 {
+        margin-top: 150px;
     }
 
     .page-section {
