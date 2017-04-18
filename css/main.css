@@ -180,7 +180,7 @@ button {
 }
 
 
-/* index page */
+/* home section */
 .index__hero-content {
     background-image: url(../img/index_sushi-cartoon.png);
     background-size: contain;
@@ -191,6 +191,31 @@ button {
 }
 
 /* about section */
+.social-media__list {
+    list-style-type: none;
+    text-align: center;
+    border: 2px solid #990066;
+    padding: 30px 30px 0;
+    background-color: #bfbfbf;
+}
+
+.social-media__item {
+    display: inline-block;
+    margin-bottom: 8vh;
+}
+
+.social-media__item figcaption {
+    color: #310025;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 2vh;
+    width: 60%;
+    margin: auto;
+    font-size: 12px;
+    line-height: 15px;
+}
+
 
 
 /* footer */
@@ -300,6 +325,12 @@ footer {
     /* index */
     .index__hero-content {
         background-size: 70%;
+    }
+
+    /* about */
+    .social-media__image {
+        /*width: 150px;
+        height: 150px;*/
     }
 
     /* style tile page */
