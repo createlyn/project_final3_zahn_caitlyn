@@ -5,6 +5,11 @@ body {
     width: 100%;
 }
 
+/* styles */
+.background--black {
+    background-color: #1c1c1c;
+}
+
 .container {
     margin: 0 auto;
 }
@@ -84,7 +89,7 @@ p {
     font-weight: 300;
     color: #ffffff;
     font-size: 1em;
-    padding: 1em;
+    padding: 1em 0;
     line-height: 1.2em;
 }
 
@@ -128,6 +133,18 @@ nav a {
     font-weight: 400;
 }
 
+.main-index {
+    background-image: url(../img/fish-right.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.icon-size {
+    max-width: 300px;
+}
+
 .typography {
     text-align: center;
     background-image: url(../img/fish.png);
@@ -153,6 +170,9 @@ button {
     outline: none;
 }
 
+/* about section */
+
+
 /* footer */
 footer {
     background-color: pink;
@@ -172,7 +192,7 @@ footer {
 
 
 /* style-tile-page */
-.style-tile-page {
+.style-tile-page, {
     background-image: url(../img/fish-right.png);
     background-repeat: repeat-x;
     background-size: 50%;
@@ -232,6 +252,14 @@ footer {
 }
 
 @media all and (min-width: 768px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .page-section p {
+
+    }
+
     header {
         background-color: #ffffff;
     }
@@ -320,7 +348,7 @@ footer {
     .container {
         margin: 0 auto;
         max-width: 1200px;
-        padding: 0 30px;
+
     }
 
     .menu-wrap {
@@ -346,6 +374,7 @@ footer {
         float: right;
         display: inline-block;
     }
+
 
     #logo {
         display: block;
@@ -378,12 +407,24 @@ footer {
         font-weight: 600;
     }
 
+    .icon-size {
+        max-width: 150px;
+        display: inline-block;
+    }
+
+    .index__hero-content {
+        background-position: 85% 90%;
+    }
+
     .page-section {
         height: 100%;
-        background-color: orange;
+        background-color: //rgba(28, 28, 28, 0.5);
         margin: 7% 5% 0 30%;
         padding: 5vw;
+        min-height: 100vh;
     }
+
+
 
     .style-tile-page {
         background-size: 30%;
