@@ -541,10 +541,11 @@ footer {
     .index__hero-content {
         background-size: 60%;
         background-position: 85% 70%;
+        text-align: center;
     }
 
     .index__hero-content h1 {
-        margin-top: 150px;
+        /*margin-top: 150px;*/
     }
 
     .page-section {

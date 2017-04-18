@@ -6,6 +6,17 @@ $(document).on('click', 'a', function (event) {
     }, 500);
 });
 
+// textillate
+$(function () {
+    $('.tlt').textillate();
+});
+
+$('.tlt').textillate({ in: {
+    effect: 'fadeInLeftBig',
+
+} });
+
+
 // menu tabs
 function openMenu(evt, menuName) {
     var i, tabcontent, tablinks;
