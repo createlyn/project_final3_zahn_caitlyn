@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
+    <!-- <link rel="stylesheet" href="css/lazeemenu.css"> -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/menu.css">
 </head>
@@ -17,10 +18,39 @@
             <img src="img/logo-tablet.png" alt="logo" id="logo_tablet"/>
         </div>
         <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#menu">Menu</a>
-            <a href="#contact">Contact</a>
+            <ul id="responsive-menu">
+                <li class="menu__active">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="menu__active">
+                    <a href="#about">About</a>
+                </li>
+                <li class="menu__active menu-extend">
+                    <a href="#menu" id="menu-dropdown"><span>Menu</span></a>
+                </li>
+                <li class="menu__active menu-extend">
+                    <ul class="sub-menu">
+                        <li class="sub-menu__item">
+                            <a href="#appetizers" onclick="openMenu(event, 'appetizers')">Apps</a>
+                        </li>
+                        <li class="sub-menu__item">
+                            <a href="#sushi" onclick="openMenu(event, 'sushi')">sushi</a>
+                        </li>
+                        <li class="sub-menu__item">
+                            <a href="#dinner" onclick="openMenu(event, 'dinner')">dinner</a>
+                        </li>
+                        <li class="sub-menu__item">
+                            <a href="#dessert" onclick="openMenu(event, 'dessert')">dessert</a>
+                        </li>
+                        <li class="sub-menu__item">
+                            <a href="#drinks" onclick="openMenu(event, 'drinks')">drinks</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__active">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <main class="main-index">
@@ -97,7 +127,7 @@
         <section class="page-section" id="menu">
             <h1>This is the menu section</h1>
             <ul class="stickem menu-section__list ">
-                <a href="#appetizers" class="menu-section__link tablinks " onclick="openMenu(event, 'appetizers')">
+                <a href="#appetizers #apps" class="menu-section__link tablinks " onclick="openMenu(event, 'appetizers')">
                     <li class="menu-section__item">
                         <h4>apps</h4>
                     </li>
@@ -511,7 +541,7 @@
             </div>
         </section>
     </main>
-    <footer class="page-section">
+    <footer class="page-section footer">
         <h1>this is the footer section</h1>
         <h6>hours</h6>
         <p class="padding--reset">
@@ -525,6 +555,7 @@
     <script src="https://use.typekit.net/oku5vxb.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/lazeemenu-jquery.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

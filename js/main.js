@@ -20,3 +20,27 @@ function openMenu(evt, menuName) {
     document.getElementById(menuName).style.display = 'block';
     evt.currentTarget.className += 'active';
 }
+
+// lazeemenu
+$(document).ready(function () {
+    $('#responsive-menu').lazeemenu({
+        activeClass: 'menu__active',
+        initialState: 'default'
+    });
+});
+//
+// $('#responsive-menu').lazeemenu({
+//     activeClass: 'sub-menu__item',
+//     initialState: 'default'
+//         .hover(function () {
+//             $('.sub-menu').fadeIn(1000);
+//         })
+// });
+//
+// $(document).hover(function () {
+//     $('.menu-extend').lazeemenu('expandAll');
+// });
+
+// $(selector).lazeemenu('expandAll');
+//
+// $(selector).lazeemenu('collapseAll');
