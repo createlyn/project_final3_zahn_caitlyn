@@ -6,10 +6,7 @@ $(document).on('click', 'a', function (event) {
     }, 500);
 });
 
-// sticky container
-$('#menu').stickem();
-
-
+// menu tabs
 function openMenu(evt, menuName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName('tabcontent');

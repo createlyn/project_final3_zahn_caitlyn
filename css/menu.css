@@ -1,24 +1,7 @@
-.stickem-container {
-    position: relative;
-}
-
-.stickit {
-    position: fixed;
-    /*top: 0px;*/
-}
-
-.stickit-end {
-    bottom: 40px;
-    position: absolute;
-    /*right: 0;*/
-}
-
 .menu-section__list {
     margin: 5vh 0;
     padding: 0;
     text-align: center;
-
-
 }
 
 .menu-section__item {
@@ -35,7 +18,6 @@
 .menu-section {
     padding: 0 20px;
     display: none;
-    position: relative;
 }
 
 .menu-section h1 {
