@@ -548,6 +548,7 @@ footer {
     /* about */
     .about {
         margin: auto;
+        background-size: 20%;
     }
 
     .about__description {
