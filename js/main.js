@@ -39,7 +39,3 @@ $(document).ready(function () {
         initialState: 'default'
     });
 });
-
-// $('.menu-extend').hover({
-// }
-// });
