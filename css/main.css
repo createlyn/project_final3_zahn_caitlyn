@@ -143,6 +143,7 @@ nav li {
     padding: 20px 0;
 
 }
+
 nav li a {
     text-decoration: none;
     color: #ffffff;
@@ -170,6 +171,8 @@ nav li a {
     background-attachment: fixed;
     background-position: center center;
     background-color: #1c1c1c;
+    float: right;
+    display: inline-block;
 }
 
 .icon-size {
@@ -368,7 +371,7 @@ footer {
         padding: 0 30px;
     }
 
-    nav {
+    /*nav {
         background-color: #310025;
         border: 1px solid #990066;
 
@@ -393,12 +396,82 @@ footer {
     .sub-menu li,
     .sub-menu li a {
         display: block;
+    }*/
+
+    #logo {
+        display: block;
+        /*margin: 0;*/
+        padding: 40px 0;
+        width: 100%;
+    }
+
+    #logo img {
+        margin: auto;
+        max-width: 170px;
+    }
+
+    header {
+        float: left;
+        width: 25%;
+        height: 100%;
+        display: inline-block;
+        text-align: left;
+        position: fixed;
+        background-color: #ffffff;
+    }
+
+    .main-index {
+        background-size: 30%;
+        float: right;
+        display: inline-block;
+    }
+
+
+    nav {
+        display: inline-block;
+        background-color: #ffffff;
+        vertical-align: text-bottom;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        border: none;
     }
 
 
 
-    header {
+    nav li,
+    nav li a {
+        color: #990066;
+        font-size: 25px;
+        display: block;
         background-color: #ffffff;
+        border: none;
+    }
+
+    nav a:hover {
+        font-weight: 600;
+    }
+
+    .sub-menu {
+        position: relative;
+        margin-right: 0;
+        width: 100%;
+
+    }
+
+    .sub-menu ul {
+        display: block;
+        color: #ffffff;
+        top: -50px;
+        margin-left: 25%;
+    }
+
+    .sub-menu li,
+    .sub-menu li a {
+        font-size: 15px;
+        color: #ffffff;
+
     }
 
     #logo {
@@ -409,9 +482,9 @@ footer {
         display: none;
     }
 
-    #logo img {
+    /*#logo img {
         max-width: 200px;
-    }
+    }*/
 
 
     #logo_tablet {
@@ -534,11 +607,11 @@ footer {
     }
 
     .main-content {
-        width: 70%;
+        width: 100%;
         display: inline-block;
     }
 
-    header {
+    /*header {
         float: left;
         width: 25%;
         height: 100%;
@@ -551,10 +624,10 @@ footer {
         background-size: 30%;
         float: right;
         display: inline-block;
-    }
+    }*/
 
 
-    #logo {
+    /*#logo {
         display: block;
         margin: 0;
         padding: 40px 0;
@@ -611,7 +684,7 @@ footer {
         font-size: 15px;
         color: #ffffff;
 
-    }
+    }*/
 
     .icon-size {
         max-width: 150px;
@@ -621,7 +694,7 @@ footer {
     .index__hero-content {
         background-size: 60%;
         background-position: 85% 70%;
-}
+    }
 
     .page-section {
         height: 100%;
