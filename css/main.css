@@ -220,9 +220,10 @@ button {
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center 70%;
+    background-position: center 90%;
     background-color: transparent;
     text-align: center;
+    background-color: #1c1c1c;
 }
 
 
@@ -419,6 +420,7 @@ footer {
 
     /* index */
     .index__hero-content {
+        background-position: center 70%;
         background-size: 70%;
     }
 
