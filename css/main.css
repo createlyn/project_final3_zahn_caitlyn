@@ -12,7 +12,7 @@ body {
 
 .container {
     margin: 0 auto;
-    padding: 0 10px;
+    /*padding: 0 10px;*/
 }
 
 .margin--reset {
@@ -192,9 +192,7 @@ nav li a {
     opacity: 1;
 }
 
-/*// end back to top*/
-
-
+/* end back to top */
 .main-index {
     background-image: url(../img/fish-right.png);
     background-repeat: no-repeat;
@@ -260,7 +258,6 @@ button {
     background-color: #1c1c1c;
 }
 
-
 .submessage {
     background-color: rgba(28, 28, 28, 0.5);
     padding: 10px;
@@ -311,12 +308,79 @@ button {
 .about {
     background-image: url(../img/fish.png);
     background-repeat: no-repeat;
-    background-size: 20%;
+    background-size: 40%;
     background-attachment: fixed;
     background-position: 90% center;
     background-color: #1c1c1c;
 }
 
+/* menu */
+.menu-section__list {
+    margin: 5vh 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-section__item {
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid #990066;
+    width: 45%;
+    text-align: center;
+    background-color: #310025;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+
+.menu-section {
+    padding: 0 20px;
+    display: none;
+}
+
+.menu-section h1 {
+    text-align: center;
+    border-bottom: 1px solid #990066;
+    margin: 6vh 0 6vh 0;
+    line-height: 60px;
+
+}
+
+.menu-section p {
+    padding: 0 0 2vh 0;
+    display: inline-block;
+}
+
+.menu-description {
+    display: inline-block;
+    margin-bottom: 5vh;
+    width: 100%;
+    border-bottom: 1px solid #990066;
+}
+
+.menu-description td {
+    display: block;
+}
+
+.menu__item-title {
+    width: 70%;
+    display: inline-block;
+}
+
+h3.menu__item-title {
+    text-align: right;
+}
+
+.menu__price {
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+    font-weight: 500;
+}
+
+.menu__item-description {
+    margin: 0;
+    color: #bfbfbf;
+}
 
 
 /* footer */
@@ -521,12 +585,18 @@ footer {
         width: 70%;
     }
 
-    .about-image {
-
-    }
-
     .icon-size {
         width: 25%;
+    }
+
+    /* menu */
+    .menu-section__item {
+        width: 25%;
+        margin: 2vh;
+    }
+
+    .menu-section {
+        display: none;
     }
 
     /* footer */
@@ -620,6 +690,17 @@ footer {
 
     .social-media__banner {
         margin-top: 0;
+    }
+
+    /* menu */
+    .menu-section__item {
+        width: 23%;
+        margin: 1vh;
+    }
+
+    .menu-description {
+        width: 100%;
+        border-bottom: none;
     }
 
     .style-tile-page {
