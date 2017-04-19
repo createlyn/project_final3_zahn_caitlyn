@@ -27,11 +27,12 @@
                 <li class="menu__active">
                     <a href="#about">About</a>
                 </li>
-                <li class="menu-extend">
-                    <a href="#menu" class="inline-block" id="menu-dropdown"><span>Menu</span></a>
-                    <a href="#menu-extend">+</a>
+                <li class="menu__active inline-block">
+                    <a href="#menu" class="inline-block" id="menu-dropdown">Menu</a>
+
                 </li>
-                <li id="menu-extend">
+                <li id="menu-extend" class="inline-block margin--reset padding--reset">
+                    <a href="#menu-extend" class="inline-block margin--reset padding--reset"><span>+</span></a>
                     <ul class="sub-menu">
                         <li class="sub-menu__item">
                             <a href="#appetizers" onclick="openMenu(event, 'appetizers')">Apps</a>
@@ -156,7 +157,7 @@
             </div>
         </section>
         <section class="page-section" id="menu">
-            <h1>This is the menu section</h1>
+            <h1>MENU</h1>
             <ul class="stickem menu-section__list ">
                 <a href="#appetizers #apps" class="menu-section__link tablinks " onclick="openMenu(event, 'appetizers')">
                     <li class="menu-section__item">
@@ -558,26 +559,30 @@
             </div>
         </section>
         <section class="page-section" id="contact">
-            <footer>
+            <footer class="background--black">
                 <div class="container">
-                    <h1>Contact</h1>
-                    <p>
-                        510-234-9854
-                    </p>
-                    <p>
-                        info@HarryHausen.com
-                    </p>
-                    <p>
-                        1 Scary Street, Monstropolis
-                    </p>
+                    <div class="contact-info">
+                        <h2>Contact</h2>
+                        <p>
+                            510-234-9854
+                        </p>
+                        <p>
+                            info@HarryHausen.com
+                        </p>
+                        <p>
+                            1 Scary Street, Monstropolis
+                        </p>
+                    </div>
+                    <div class="contact-info">
+                        <h2>hours</h2>
+                        <p class="padding--reset">
+                            Sunday - Tuesday: 11:00am - 10:00pm
+                        </p>
+                        <p class="padding--reset">
+                            Friday - Saturday: 11:00am - 11:00pm
+                        </p>
+                    </div>
                 </div>
-                    <h6>hours</h6>
-                    <p class="padding--reset">
-                        Sunday - Tuesday: 11:00am - 10:00pm
-                    </p>
-                    <p class="padding--reset">
-                        Friday - Saturday: 11:00am - 11:00pm
-                    </p>
             </footer>
         </section>
 </main>
