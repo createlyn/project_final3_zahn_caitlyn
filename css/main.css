@@ -192,10 +192,8 @@ nav li a {
     margin-right: 2vw;
 }
 
-.happy-hour {
+#happy-hour {
     text-align: center;
-    width: 80%;
-    margin: auto;
 }
 
 .page-section {

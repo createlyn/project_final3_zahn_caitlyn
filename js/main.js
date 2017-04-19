@@ -54,3 +54,7 @@ if ($('#back-to-top').length) {
         }, 700);
     });
 }
+
+
+// add content to page with custom javascript
+document.getElementById('happy-hour').innerHTML = 'Don\'t miss out on our happy hour! Monday - Friday 4-6!';

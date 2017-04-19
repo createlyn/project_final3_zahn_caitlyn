@@ -1,5 +1,5 @@
-# Final - Part 2
-[git repo](https://github.com/createlyn/project_final2_zahn_caitlyn)
+# Final - Part 3
+[git repo](https://github.com/createlyn/project_final3_zahn_caitlyn)
 
 [project on webhost](http://www.createlyn.com/UF-projects/AW2/project_final2_zahn_caitlyn/index.html)
 [W3C's validator](http://www.createlyn.com/UF-projects/AW2/project_final2_zahn_caitlyn/index.html)
