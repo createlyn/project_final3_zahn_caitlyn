@@ -33,12 +33,12 @@ function openMenu(evt, menuName) {
 }
 
 // lazeemenu
-$(document).ready(function () {
-    $('#responsive-menu').lazeemenu({
-        activeClass: 'menu__active',
-        initialState: 'default'
-    });
-});
+// $(document).ready(function () {
+//     $('#responsive-menu').lazeemenu({
+//         activeClass: 'menu__active',
+//         initialState: 'default'
+//     });
+// });
 
 // back to top
 if ($('#back-to-top').length) {
