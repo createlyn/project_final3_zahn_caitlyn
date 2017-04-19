@@ -22,40 +22,23 @@
         </div>
         <nav>
             <ul id="responsive-menu">
-                <li class="menu__active">
+                <li>
                     <a href="#home">Home</a>
                 </li>
-                <li class="menu__active">
+                <li>
                     <a href="#about">About</a>
                 </li>
-                <li class="menu__active inline-block">
-                    <a href="#menu" class="inline-block" id="menu-dropdown">Menu</a>
-
-                </li>
-                <li id="menu-extend" class="inline-block margin--reset padding--reset">
-                    <a href="#menu-extend" class="inline-block margin--reset padding--reset"><span>+</span></a>
-                    <ul class="sub-menu">
-                        <li class="sub-menu__item">
-                            <a href="#appetizers" onclick="openMenu(event, 'appetizers')">Apps</a>
-                        </li>
-                        <li class="sub-menu__item">
-                            <a href="#sushi" onclick="openMenu(event, 'sushi')">sushi</a>
-                        </li>
-                        <li class="sub-menu__item">
-                            <a href="#dinner" onclick="openMenu(event, 'dinner')">dinner</a>
-                        </li>
-                        <li class="sub-menu__item">
-                            <a href="#dessert" onclick="openMenu(event, 'dessert')">dessert</a>
-                        </li>
-                        <li class="sub-menu__item">
-                            <a href="#drinks" onclick="openMenu(event, 'drinks')">drinks</a>
-                        </li>
-                    </ul>
+                <li>
+                    <a href="#menu">Menu</a>
                 </li>
                 <li class="menu__active">
                     <a href="#contact">Contact</a>
                 </li>
             </ul>
+            <div class="reservation">
+                <h3>Call ahead to make<br /> a reservation</h3>
+                <h4>510-234-9854</h4>
+            </div>
         </nav>
         <!-- <div id="content">Scroll &darr;</div> -->
         <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
@@ -98,6 +81,9 @@
                     <img src="img/purple_icon-food.png" alt="food icon" class="icon-size"/>
                     <img src="img/purple_icon-house.png" alt="house icon" class="icon-size"/>
                     <h6>We look forward to seeing you soon!</h6>
+                </div>
+                <div class="happy-hour">
+                    <h2>Don't miss out on our happy hour! Monday - Friday 4-6!</h2>
                 </div>
             </div>
         </section>
@@ -593,7 +579,6 @@
     <script src="https://use.typekit.net/oku5vxb.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/lazeemenu-jquery.js"></script>
     <script src="js/jquery.lettering.js"></script>
     <script src="js/jquery.textillate.js"></script>
     <script src="js/main.js"></script>

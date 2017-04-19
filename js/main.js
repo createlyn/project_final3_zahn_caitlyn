@@ -32,14 +32,6 @@ function openMenu(evt, menuName) {
     evt.currentTarget.className += 'active';
 }
 
-// lazeemenu
-// $(document).ready(function () {
-//     $('#responsive-menu').lazeemenu({
-//         activeClass: 'menu__active',
-//         initialState: 'default'
-//     });
-// });
-
 // back to top
 if ($('#back-to-top').length) {
     var scrollTrigger = 100, // px

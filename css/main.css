@@ -12,7 +12,6 @@ body {
 
 .container {
     margin: 0 auto;
-    /*padding: 0 10px;*/
 }
 
 .margin--reset {
@@ -141,27 +140,9 @@ nav li a {
     font-weight: 400;
 }
 
-#menu-extend {
-    display: inline-block;
-}
-
-#menu-1 h3 {
-    color: #990066;
-    font-size: 1.5em;
-}
-
-#menu-1 a {
-    color: #990066;
-    font-size: 1.5em;
-}
-
-.sub-menu {
-    /*display: none;*/
-}
-
-.sub-menu li,
-.sub-menu li a {
-    background-color: #990066;
+.reservation h3,
+.reservation h4 {
+    display: none;
 }
 
 /* start back to top */
@@ -209,6 +190,12 @@ nav li a {
     width: 30%;
     max-width: 200px;
     margin-right: 2vw;
+}
+
+.happy-hour {
+    text-align: center;
+    width: 80%;
+    margin: auto;
 }
 
 .page-section {
@@ -519,25 +506,14 @@ footer {
         font-weight: 600;
     }
 
-    .sub-menu {
-        position: relative;
-        margin-right: 0;
-        width: 100%;
-
+    .reservation h3 {
+        margin-top: 30px;
     }
 
-    .sub-menu ul {
+    .reservation h3,
+    .reservation h4 {
+        color: #1c1c1c;
         display: block;
-        color: #ffffff;
-        top: -50px;
-        margin-left: 25%;
-    }
-
-    .sub-menu li,
-    .sub-menu li a {
-        font-size: 15px;
-        color: #ffffff;
-
     }
 
     #logo {
@@ -555,7 +531,7 @@ footer {
 
     .page-section {
         background-size: 45%;
-        background-color: //rgba(28, 28, 28, 0.5);
+        background-color: rgba(28, 28, 28, 0.5);
         min-height: 60vh;
     }
 
@@ -567,7 +543,6 @@ footer {
     }
 
     .submessage {
-        padding: 30px 0;
         font-weight: 400;
     }
 
