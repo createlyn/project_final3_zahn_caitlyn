@@ -163,6 +163,37 @@ nav li a {
     background-color: #990066;
 }
 
+/* start back to top */
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    color: #310025;
+    background: #faf28c;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+
+#back-to-top:hover {
+    box-shadow: 0 0 15px rgba(250, 242, 140, 0.5);
+    transition: 0.5s ease-in-out;
+}
+
+#back-to-top.show {
+    opacity: 1;
+}
+
+/*// end back to top*/
+
 
 .main-index {
     background-image: url(../img/fish-right.png);
@@ -371,35 +402,8 @@ footer {
         padding: 0 30px;
     }
 
-    /*nav {
-        background-color: #310025;
-        border: 1px solid #990066;
-    }
-
-    nav li,
-    nav li a {
-        background-color: none;
-        border: none;
-        display: inline-block;
-        padding: 10px 20px;
-
-    }
-
-    .sub-menu {
-        width: 210px;
-        right: 0;
-        position: absolute;
-        margin-right: 30%;
-    }
-
-    .sub-menu li,
-    .sub-menu li a {
-        display: block;
-    }*/
-
     #logo {
         display: block;
-        /*margin: 0;*/
         padding: 40px 0;
         width: 100%;
     }
@@ -479,11 +483,6 @@ footer {
         display: none;
     }
 
-    /*#logo img {
-        max-width: 200px;
-    }*/
-
-
     #logo_tablet {
         display: block;
         margin: auto;
@@ -492,8 +491,6 @@ footer {
     .page-section {
         background-size: 45%;
         background-color: //rgba(28, 28, 28, 0.5);
-        /*margin: 7% 0 0 30%;
-        padding: 5vw;*/
         min-height: 60vh;
     }
 
@@ -601,12 +598,6 @@ footer {
         font-weight: 400;
     }
 
-    .container {
-        margin: 0 auto;
-        max-width: 1200px;
-        padding: 0 30px;
-    }
-
     .menu-wrap {
         width: 25%;
         display: inline-block;
@@ -616,81 +607,6 @@ footer {
         width: 100%;
         display: inline-block;
     }
-
-    /*header {
-        float: left;
-        width: 25%;
-        height: 100%;
-        display: inline-block;
-        text-align: left;
-        position: fixed;
-    }
-
-    .main-index {
-        background-size: 30%;
-        float: right;
-        display: inline-block;
-    }*/
-
-
-    /*#logo {
-        display: block;
-        margin: 0;
-        padding: 40px 0;
-        width: 100%;
-    }
-
-    #logo img {
-        margin: auto;
-        max-width: 180px;
-    }
-
-    nav {
-        display: inline-block;
-        background-color: #ffffff;
-        vertical-align: text-bottom;
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        text-align: center;
-        border: none;
-    }
-
-
-
-    nav li,
-    nav li a {
-        color: #990066;
-        font-size: 25px;
-        display: block;
-        background-color: #ffffff;
-        border: none;
-    }
-
-    nav a:hover {
-        font-weight: 600;
-    }
-
-    .sub-menu {
-        position: relative;
-        margin-right: 0;
-        width: 100%;
-
-    }
-
-    .sub-menu ul {
-        display: block;
-        color: #ffffff;
-        top: -50px;
-        margin-left: 25%;
-    }
-
-    .sub-menu li,
-    .sub-menu li a {
-        font-size: 15px;
-        color: #ffffff;
-
-    }*/
 
     .icon-size {
         max-width: 150px;
@@ -702,19 +618,9 @@ footer {
         background-position: 85% 70%;
     }
 
-    /*.page-section {
-        height: 100%;
-        background-color: //rgba(28, 28, 28, 0.5);
-        margin: 7% 0 0 28%;
-        padding: 5vw;
-        min-height: 60vh;
-    }*/
-
     .social-media__banner {
         margin-top: 0;
     }
-
-
 
     .style-tile-page {
         background-size: 30%;
@@ -723,11 +629,10 @@ footer {
     button:hover,
     .menu-section__list li:hover {
         box-shadow: 0 0 15px rgba(250, 242, 140, 0.5);
-        transition: .5s ease-in-out;
+        transition: 0.5s ease-in-out;
     }
 
     footer {
         clear: both;
-        /*margin-bottom: 10vh;*/
     }
 }

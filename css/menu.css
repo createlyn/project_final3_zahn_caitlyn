@@ -83,10 +83,7 @@ h3.menu__item-title {
 }
 
 @media all and (min-width: 1100px) {
-    .container {
-        margin: 0;
-        padding: 0;
-    }
+
 
     .menu-section__item {
         width: 23%;
