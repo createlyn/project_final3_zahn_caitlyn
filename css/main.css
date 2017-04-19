@@ -305,9 +305,10 @@ button {
     margin: 5vh 0;
     padding: 0;
     text-align: center;
+    list-style-type: none;
 }
 
-.menu-section__item {
+.menu-section__link {
     display: inline-block;
     list-style-type: none;
     border: 1px solid #990066;
@@ -564,7 +565,7 @@ footer {
     }
 
     /* menu */
-    .menu-section__item {
+    .menu-section__link {
         width: 25%;
         margin: 2vh;
     }
@@ -667,7 +668,7 @@ footer {
     }
 
     /* menu */
-    .menu-section__item {
+    .menu-section__link {
         width: 23%;
         margin: 1vh;
     }
