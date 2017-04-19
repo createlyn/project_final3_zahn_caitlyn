@@ -259,6 +259,7 @@ button {
 
 .social-media__image {
     max-width: 250px;
+    border: 1px solid #310025;
 }
 
 .social-media__item figcaption {
