@@ -108,7 +108,7 @@
                     $(this).parent().addClass('expanded');
                     $(this).removeClass('collapsed');
                     $(this).addClass('expanded');
-                    $(this).parent().parent().find('> ul > li').each(function () {
+                    $(this).parent().parent().find('> ul > li').each(function() {
                         var elem = $(this);
                         elem.slideDown(100, function() {
                             elem.attr('style', 'display: block');
