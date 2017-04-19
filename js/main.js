@@ -40,25 +40,6 @@ $(document).ready(function () {
     });
 });
 
-$('.menu-extend').hover({
-    in: {
-    effect: 'fadeInLeftBig',
-
-}
-});
-//
-// $('#responsive-menu').lazeemenu({
-//     activeClass: 'sub-menu__item',
-//     initialState: 'default'
-//         .hover(function () {
-//             $('.sub-menu').fadeIn(1000);
-//         })
+// $('.menu-extend').hover({
+// }
 // });
-//
-// $(document).hover(function () {
-//     $('.menu-extend').lazeemenu('expandAll');
-// });
-
-// $(selector).lazeemenu('expandAll');
-//
-// $(selector).lazeemenu('collapseAll');
